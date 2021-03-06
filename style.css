@@ -1,0 +1,22 @@
+marquee{background-color: palevioletred;
+color: floralwhite;
+font-size: 30px;}
+body{text-align: center;}
+
+row::after{content: "";
+clear: both;
+display: table;}
+.travel_mainDiv{float: left;
+padding: 5px;
+width: 33.33%;
+border: 1px solid #c7c7c7;}
+.travel_mainDiv img{width: 100%;
+300px;}
+.travel_mainDiv hr{width: 100%;}
+.travel_mainDiv h5, .travel_mainDiv p{
+    margin-left: 20px;
+}
+.movie_head{font-size: 20px;
+padding: 6px;
+border-radius: 30px; margin-top: 20px}
+.movie_head i{float: right;}
